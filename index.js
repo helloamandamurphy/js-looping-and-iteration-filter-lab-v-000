@@ -1,5 +1,5 @@
 // Code your solution in this file
-function findMatching(drivers, string) {
+function findMatching (drivers, name) {
 const result = drivers.filter(string);
 
 console.log(result);
