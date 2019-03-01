@@ -1,4 +1,4 @@
-function findMatching (drivers, name) { //creating a function that accepts an array of drivers and a string argument name.
+function findMatching (drivers, name) {
   return drivers.filter(function (matching)
     return matching.toLowerCase() === name.toLowerCase();
   });
@@ -11,5 +11,5 @@ function fuzzyMatch(drivers, partialName) {
 }
 
 function matchName(drivers, name) {
-  
+  return drivers.filter(=== name)
 }
