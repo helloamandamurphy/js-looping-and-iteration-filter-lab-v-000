@@ -4,7 +4,7 @@ function findMatching (drivers, name) {
   });
 }
 
-function fuzzyMatch(drivers, partialName) {
+function fuzzyMatch (drivers, partialName) {
   return drivers.filter(function (partialMatch) {
     return partialMatch.slice(0, (partialName.length)) === partialName;
   });
