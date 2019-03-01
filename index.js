@@ -10,6 +10,11 @@ function fuzzyMatch (drivers, partialName) {
   });
 }
 
-function matchName(drivers, name) {
-  return drivers.filter(=== name)
+//function matchName(drivers, name) {
+  //return drivers.filter(=== name)
+//}
+
+function matchName (list, name) {
+  return list.filter(name.toLowerCase() === name.toLowerCase
+  );
 }
